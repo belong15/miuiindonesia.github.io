@@ -1,0 +1,21 @@
+# Site settings
+name: XM Firmware Updater
+title: XM Firmware Updater
+description: The ultimate website where you can download official ROMs and firmware packages for XM devices!
+keywords: xiaomi, xiaomi firmware, XM Firmware Updater, xiaomi firmware updater, firmware updater, firmware download, firmware, firmware downloader, firmware update, xiaomi firmware download, xiaomi firmware update, Xiaomi update, XDA, Xiaomi XDA, Firmware XDA, yshalsager, xfu, redmi, mi, pocophone, poco
+url: https://xmfirmwareupdater.com
+permalink: /:categories/:title/
+repository: XiaomiFirmwareUpdater/xmfirmwareupdater.github.io
+author: yshalsager
+email: contact@xmfirmwareupdater.com
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+members:
+  - berkantkz
+  - yshalsager
+
+exclude:
+  - data_generator/
